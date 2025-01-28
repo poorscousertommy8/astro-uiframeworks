@@ -1,0 +1,11 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Lorem from "../components/Lorem.astro";
+import AlertButtonSvelte from "../components/AlertButtonSvelte.svelte";
+---
+
+<Layout>
+	<div><a class="font-bold text-lg text-grey-700" href="/">Zurück</a></div>
+	<Lorem />
+	<AlertButtonSvelte client:visible />
+</Layout>

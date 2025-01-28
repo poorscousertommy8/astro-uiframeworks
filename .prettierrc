@@ -1,0 +1,16 @@
+{
+	"overrides": [
+		{
+			"files": "*.astro",
+			"options": {
+				"parser": "astro"
+			}
+		}
+	],
+	"arrowParens": "avoid",
+	"plugins": ["prettier-plugin-astro"],
+	"printWidth": 95,
+	"tabWidth": 2,
+	"trailingComma": "all",
+	"useTabs": true
+}
